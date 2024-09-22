@@ -3,6 +3,7 @@ import './App.css';
 import Hero from './components/Hero';
 import Header from './components/Header';
 import Projects from './components/Project';
+import Contact from './components/Contacts';
 function App() {
   return (
     <>
@@ -10,6 +11,7 @@ function App() {
     <Hero/>
     <About/>
     <Projects/>
+    <Contact/>
     </>
   );
 }
